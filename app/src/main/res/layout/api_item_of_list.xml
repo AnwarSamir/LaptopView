@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    app:cardUseCompatPadding="true"
+    >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:textColor="#f123fa"
+                android:text="Large Text"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tag"
+                android:paddingTop="5dp"
+                android:padding="8dp"
+
+                android:id="@+id/tagName"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:fontFamily="serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:ellipsize="end"
+
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/link"
+            android:autoLink="web"
+            android:textColor="@color/colorPrimary"
+            android:linksClickable="true"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
